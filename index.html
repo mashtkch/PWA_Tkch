@@ -3,14 +3,27 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <script src="app.js"></script>
 <head>
-    <meta charset="utf-8" />
     <title>Couturière</title>
     <link rel="manifest" href="/manifest.json">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-startup-image" href="./ios/512.png">
     <link rel="apple-touch-icon" href="./ios/100.png">
     <link rel="apple-touch-icon" href="./ios/144.png">
-    <link rel="apple-touch-icon" href="./ios/256.png">
+    <link rel="apple-touch-icon" href="./ios/256.png">\
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+    navigator.serviceWorker.register("service-worker.js")</script> 
+    <link rel="manifest" href="manifest.json">
+    <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js').then(function() {
+        console.log('Service Worker Registered');
+      }).catch(function(err) {
+        console.log('Service Worker Registration Failed', err);
+      });
+    }
+     </script>
 </head>
 
 <link rel="stylesheet" href="./style_app.css">
