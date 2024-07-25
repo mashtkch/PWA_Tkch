@@ -1,7 +1,11 @@
 ﻿<!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-
+<script>
+    if ('serviceWorker' in navigator){
+        navigator.serviceWorker.register('/sw.js', {scope: '/'})
+    }
+</script>
 <head>
     <meta charset="utf-8" />
     <title>Couturière</title>
