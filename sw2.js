@@ -1,10 +1,9 @@
-const staticCacheName = 's-app-v1';
-
+const staticCacheName = 'CacheSpace1';
 const assetUrls = [
-    '/index.html',
-    '/style_app.css',
-    '/images',
-    '/ios' 
+  '/icons',
+  '/css/style.css',
+  '/background',
+  '/index.html',
 ];
 
 self.addEventListener('install', event => {
