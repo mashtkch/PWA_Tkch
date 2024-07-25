@@ -1,0 +1,414 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Ibarra+Real+Nova:ital,wght@0,400..700;1,400..700&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Pinyon+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Petit+Formal+Script&display=swap');
+
+
+.f1 {
+  font-family: "Ibarra Real Nova", serif;
+  font-weight: 400;
+  font-size: 25px;
+  font-style: italic;
+
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.f12 {
+  font-family: "Ibarra Real Nova", serif;
+  font-weight: 400;
+  font-size: 80px;
+  font-style: italic;
+
+  margin-bottom: 0px;
+  margin-top: 20px;
+}
+
+.f2 {
+  font-family: "Pinyon Script", cursive;
+  font-weight: 400;
+  font-size: 30px;
+  font-style: normal;
+
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.f3 {
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  font-size: 60px;
+  font-style: italic;
+}
+
+.f4 {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 300;
+  font-size: 60px;
+  font-style: italic;
+}
+
+.f5 {
+  font-family: "Petit Formal Script", cursive;
+  font-weight: 400;
+  font-size: 60px;
+  font-style: normal;
+}
+
+.f6 {
+  font-family: "Italianno", cursive;
+  font-weight: 400;
+  font-size: 100px;
+  font-style: normal;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+	margin: 0;
+	background-color: #0f0530;
+	color: #D7BA89;
+}
+
+a{
+	text-decoration: none;
+}
+
+.header_nav img{
+	margin-left: 140px;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+
+.header_list{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	gap: 5%;
+
+	margin-top: 50px;
+}
+
+.header_list a{
+	font-size: 23px;
+    font-family: "Old Standard TT", serif;
+    font-weight: 400;
+    font-style: normal;
+	opacity: 0.6;
+	text-decoration: none;
+	color: #D7BA89;
+
+	transition: opacity 0.4s;
+}
+
+.header_list a:hover{
+	opacity: 1;
+}
+
+.btn1{
+	margin-right: 90px;
+	font-size: 20px;
+    font-family: "Old Standard TT", serif;
+    font-weight: 450;
+    font-style: normal;
+
+	width: 100px;
+	height: 40px;
+	background: #d4c4b6;
+	color: #0f0530;
+	border-radius: 3px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	opacity: 1;
+	transition: opacity 0.4s;
+}
+
+.btn1:hover{
+	opacity: 0.7;
+}
+
+.btn{
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 25px;
+    font-family: "Old Standard TT", serif;
+    font-weight: 450;
+    font-style: normal;
+
+	width: 130px;
+	height: 55px;
+	background: #d4c4b6;
+	color: #0f0530;
+	border-radius: 3px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	opacity: 1;
+	transition: opacity 0.4s;
+}
+
+.btn:hover{
+	opacity: 0.7;
+}
+
+.titles{
+	margin-top: 100px;
+
+	font-size: 70px;
+    font-family: "Italianno", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.position_img{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.position_img figcaption{
+	margin: 25px;
+
+	font-family: "Baskervville SC", serif;
+    font-size: 25px;
+}
+
+.picture{
+	height: 302px;
+	width: 482px;
+	margin-bottom: 100px;
+	margin-top: 50px;
+}
+
+.picture_b{
+	
+	margin-bottom: 100px;
+	margin-top: 50px;
+}
+
+.img_item{
+	width: 100%;
+    height: 100%;
+    object-fit: contain;
+	border-radius: 20px;
+}
+
+.section_title_catalog{
+	font-family: "Bona Nova SC", serif;
+    font-weight: 400;
+    font-size: 40px;
+    font-style: normal;
+    margin-top: 100px;
+	margin-bottom: 50px;
+}
+
+.color_inf{
+	background-color: #c7c7c7;
+}
+
+.infomation_items{
+	display: flex;
+	font-family: "Baskervville SC", serif;
+	color: #120f0d;
+    font-weight: 300;
+    font-size: 30px;
+    font-style: normal;
+	align-items: center;
+	gap: 70px;
+	margin-right: 70px;
+	max-height: 467px;
+}
+
+.catalog_title{
+	margin-top: 100px;
+	margin-bottom: 0px;
+
+	font-family: "Pinyon Script", serif;
+    font-weight: 400;
+    font-size: 50px;
+    font-style: normal;
+}
+
+.del_position img{
+	margin-right: 15px;
+}
+
+.del_inf div{
+	margin-left: 100px;
+}
+
+.delivery h5{
+	font-family: "Cormorant Garamond", serif;
+	font-weight: 400;
+	font-size: 37px;
+	font-style: normal;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+.delivery h6{
+	font-family: "Cormorant Garamond", serif;
+	font-weight: 400;
+	font-size: 30px;
+	font-style: italic;
+	margin: 0;
+}
+
+.del_position{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.color_inf{
+	background-color: #D7BA89;
+}
+
+.color_inf img{
+	width: 100%;
+}
+
+.inf_grad{
+	height: 150px;
+
+	background: linear-gradient(#0f0530, #D7BA89);
+}
+
+.information_text h6{
+	margin: 30px;
+	margin-top: 0;
+	font-family: "Old Standard TT", serif;
+	color: #0f0530;
+    font-weight: 500;
+    font-size: 32px;
+    font-style: normal;
+}
+
+footer{
+	height: 300px;
+
+	background-color: #D7BA89;
+	color: #0f0530;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer_nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	margin-top: 150px;
+	margin-bottom: 130px;
+	margin-left: 0;
+	background-color: #D7BA89;
+}
+
+.footer_logo{
+	margin-left: 10%;
+}
+
+.footer_list{
+	margin-left: 30%;
+	margin-right: 30%;
+}
+
+.footer_top{
+	margin-left: 0;
+}
+
+.footer_list_s{
+	display: flex;
+}
+
+.footer_list a{
+	color: #0f0530;
+
+	font-size: 20px;
+    font-family: "Bona Nova SC", serif;
+    font-weight: 400;
+    font-style: normal;
+	opacity: 0.7;
+
+	transition: opacity 0.4s;
+}
+
+.footer_list h6{
+	color: #0f0530;
+
+	font-size: 30px;
+    font-family: "Bona Nova SC", serif;
+    font-weight: 400;
+    font-style: normal;
+	opacity: 1;
+
+	margin: 0px;
+	margin-bottom: 10px;
+}
+
+.footer_social h6{
+	color: #0f0530;
+
+	font-size: 30px;
+    font-family: "Bona Nova SC", serif;
+    font-weight: 400;
+    font-style: normal;
+	opacity: 1;
+
+	margin: 0px;
+	margin-bottom: 10px;
+}
+
+.social{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer_social{
+	margin-right: 30%;
+}
+
+.footer_list a:hover{
+	opacity: 1;
+}
+
+.btn_comments{
+	margin-left: 300px;
+	font-size: 30px;
+    font-family: "Bona Nova SC", serif;
+    font-weight: 450;
+    font-style: normal;
+
+	width: 200px;
+	height: 60px;
+	background: #c7c7c7;
+	color: #0f0530;
+	border-radius: 3px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	transition: opacity 0.4s;
+}
+
+.btn_comments:hover{
+	opacity: 0.7;
+}
